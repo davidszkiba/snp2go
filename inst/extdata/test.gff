@@ -1,0 +1,8 @@
+chr1	FlyBase	gene	100	300	.	+	.	ID=MF1;Ontology_term=GO:0033288;
+chr1	FlyBase	gene	200	400	.	+	.	ID=MF2;Ontology_term=GO:0033288,GO:0086039;
+chr1	FlyBase	gene	500	600	.	+	.	ID=MF3;Ontology_term=GO:0033288;
+chr1	FlyBase	gene	1000	1100	.	+	.	ID=BP1;Ontology_term=GO:0032855;
+chr1	FlyBase	gene	1200	1300	.	+	.	ID=BP2;Ontology_term=GO:0032862;
+chr1	FlyBase	gene	1400	1500	.	+	.	ID=BP3;Ontology_term=GO:0043089;
+chr1	FlyBase	gene	1600	1700	.	+	.	ID=BP4;Ontology_term=GO:0032863;
+chr1	FlyBase	gene	1800	1900	.	+	.	ID=BP5;Ontology_term=GO:0032864;

@@ -1,0 +1,33 @@
+citHeader("To cite package 'SNP2GO' in publications use:")
+
+vers <- paste("R package version", meta$Version)
+year <- 2014
+
+citEntry(entry="Manual",
+         title = "SNP2GO: functional analysis of genome-wide association studies",
+         author = personList(as.person("David Szkiba"),
+                             as.person("Martin Kapun"),
+                             as.person("Arndt von Haeseler"),
+                             as.person("Miguel Gallach")
+                             ),
+         year = year,
+         note = vers,
+         issn = "0016-6731, 1943-2631",
+         shorttitle = "SNP2GO",
+         url = 'http://www.genetics.org/content/early/2014/02/21/genetics.113.160341',     
+         doi = '10.1534/genetics.113.160341',
+	 abstract = 'Genome-wide association studies (GWAS) are designed to identify the portion of single-nucleotide polymorphisms (SNPs) in genome sequences associated with a complex trait. Strategies based on the gene list enrichment concept are currently applied for the functional analysis of GWAS, according to which a significant overrepresentation of candidate genes associated with a biological pathway is used as a proxy to infer overrepresentation of candidate SNPs in the pathway. Here we show that such inference is not always valid and introduce the program SNP2GO, which implements a new method to properly test for the overrepresentation of candidate SNPs in biological pathways.',
+	 language = 'en',
+	 urldate = '2014-02-25',
+	 journal = 'Genetics',
+	 month = 'feb',
+	 year = 2014,
+	 note = 'PMID: 24561481',
+	 keywords = 'Gene Ontology, GWAS, Linkage disequilibrium, SNP',
+        
+         textVersion =
+           paste(
+             "D. Szkiba, M. Kapun, A. von Haeseler, and M. Gallach. ",
+               "SNP2GO: functional analysis of genome-wide association studies. ",
+               "Genetics. In press.",
+               sep=""))

@@ -1,0 +1,9 @@
+RUNIT TEST PROTOCOL -- Mon Mar 17 20:10:00 2014 
+*********************************************** 
+Number of test functions: 1 
+Number of errors: 0 
+Number of failures: 0 
+
+ 
+1 Test Suite : 
+SNP2GO unit testing - 1 test function, 0 errors, 0 failures
