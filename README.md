@@ -1,6 +1,6 @@
 # SNP2GO
 
-SNP2GO is an R package that tests Gene Ontology terms for enrichment of candidate SNPs and infers whether enrichment is influenced by local effects.
+SNP2GO is an [R](https://www.r-project.org/) package that tests [Gene Ontology](http://geneontology.org/) terms for enrichment of candidate SNPs and infers whether enrichment is influenced by local effects.
 
 # Installing SNP2GO
 
