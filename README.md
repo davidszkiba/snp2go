@@ -2,8 +2,37 @@
 
 SNP2GO is an [R](https://www.r-project.org/) package that tests [Gene Ontology](http://geneontology.org/) terms for enrichment of candidate SNPs and infers whether enrichment is influenced by local effects.
 
+# Requirements
+
+SNP2GO depends on the *goProfiles*, *hash* and *GenomicRanges* packages.
+You can install them typing the following commands in your R console:
+
+```R
+install.packages("hash")
+
+# Install Bioconductor.
+if (!requireNamespace("BiocManager"))
+    install.packages("BiocManager")
+BiocManager::install()
+
+# Install the bioconductor packages:
+BiocManager::install(c("GenomicRanges", "goProfiles"))
+```
+
 # Installing SNP2GO
 
+You can install SNP2GO by either downloading the package manually or by using the *devtools*
+package, which automatically downloads it from github (recommended).
+
+## Using the *devtools* package.
+
+```R
+install.packages("devtools")
+library("devtools")
+install.github("davidszkiba/snp2go")
+```
+
+## Manual download
 You can download the program [here](http://www.cibiv.at/software/snp2go/download.php) and install it using R's install.packages function:
 
 ```R
@@ -11,19 +40,6 @@ install.packages(pkgs="/home/me/downloads/SNP2GO_1.0.2.tar.gz", type="source")
 library(SNP2GO) #load the package
 ?SNP2GO #view the help-page of the package
 ?snp2go #view the help-page of the snp2go function
-```
-
-Note: The package depends on the packages goProfiles, hash and GenomicRanges.
-Please make sure that those packages are installed.
-If not, you can install them typing the following commands in your R console:
-
-
-
-```R
-install.packages("hash")
-source("http://bioconductor.org/biocLite.R")
-biocLite("goProfiles")
-biocLite("GenomicRanges")
 ```
 
 # Parameters
