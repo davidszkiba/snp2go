@@ -68,7 +68,7 @@ function(gff.file, c.ranges, nc.ranges, updownregion, verbose){
   #############################################################################
   ## Store mappings of GO terms to genes and SNPs in a hash table
 
-  go2region <- hash()
+  go2region <- hash::hash()
   if(verbose) { message("Mapping GO terms to genomic regions\n", appendLF=FALSE) }
   progEnvir <- new.env()
   progIncr <- GetProgressBarIncrementer(verbose=verbose, environment=progEnvir, 
