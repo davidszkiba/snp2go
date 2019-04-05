@@ -1,0 +1,11 @@
+language: r
+
+matrix:
+  include:
+    - os: linux
+    - os: osx
+      disable_homebrew: true
+
+bioc_packages: 
+ - GenomicRanges
+ - goProfiles
