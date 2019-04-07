@@ -1,5 +1,7 @@
 # SNP2GO
 
+[![Build Status](https://travis-ci.com/davidszkiba/snp2go.svg?branch=master)](https://travis-ci.com/davidszkiba/snp2go)
+
 SNP2GO is an [R](https://www.r-project.org/) package that tests [Gene Ontology](http://geneontology.org/) terms for enrichment of candidate SNPs and infers whether enrichment is influenced by local effects.
 
 # Requirements
