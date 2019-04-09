@@ -95,7 +95,7 @@ function(gtf.file, mart.file, region.type="gene", updownregion=0, c.ranges,
       style=3
     )
   ## go2regions contains the mappings of GO terms to genes and SNPs
-  go2region <- hash()
+  go2region <- hash::hash()
   for(g in goterms) {	
     progIncr(progEnvir)
     g_lines <- which((elementMetadata(ranges)$ID %in% go2id[[g]] == TRUE) == TRUE)

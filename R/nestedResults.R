@@ -1,5 +1,5 @@
-nestedResults <- function(snp2go_result) {
-  dd <- snp2go_result$enriched
+nestedResults <- function(snp2goResult) {
+  dd <- snp2goResult$enriched
   
   if(length(dd$GO) == 0) {
     warning("Stopping, because the result does not contain any significant GO Terms.")
@@ -7,7 +7,7 @@ nestedResults <- function(snp2go_result) {
   }
 
   ## Add GO Term ontology and level and order data frame by Ontology and level.
-  dd$Level <- as.character(snp2go_result$termlevel[as.character(dd$GO)])
+  dd$Level <- as.character(snp2goResult$termlevel[as.character(dd$GO)])
   dd$Ontology <- Ontology(as.character(dd$GO))  
   dd <- dd[with(dd, order(dd$Ontology, as.numeric(dd$Level))), ]
 

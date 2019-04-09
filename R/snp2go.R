@@ -134,9 +134,9 @@ associated with GO terms from different ontology levels:")
   ## any of its offspring terms.
 
   goterm2ranges <- list()
-  goterm2ranges[["regions"]] <- hash()
-  goterm2ranges[["candidates"]] <- hash()
-  goterm2ranges[["noncandidates"]] <- hash()
+  goterm2ranges[["regions"]] <- hash::hash()
+  goterm2ranges[["candidates"]] <- hash::hash()
+  goterm2ranges[["noncandidates"]] <- hash::hash()
 
   if(verbose) { 
     message(

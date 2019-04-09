@@ -1,5 +1,4 @@
 import("AnnotationDbi")
-import("hash")
 import("GO.db")
 import("GenomicRanges")
 import("goProfiles")

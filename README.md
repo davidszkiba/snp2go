@@ -1,5 +1,7 @@
 # SNP2GO
 
+[![Build Status](https://travis-ci.com/davidszkiba/snp2go.svg?branch=master)](https://travis-ci.com/davidszkiba/snp2go)
+
 SNP2GO is an [R](https://www.r-project.org/) package that tests [Gene Ontology](http://geneontology.org/) terms for enrichment of candidate SNPs and infers whether enrichment is influenced by local effects.
 
 # Requirements
@@ -36,7 +38,7 @@ install.github("davidszkiba/snp2go")
 You can download the program [here](http://www.cibiv.at/software/snp2go/download.php) and install it using R's install.packages function:
 
 ```R
-install.packages(pkgs="/home/me/downloads/SNP2GO_1.0.2.tar.gz", type="source")
+install.packages(pkgs="/home/me/downloads/SNP2GO_x.y.z.tar.gz", repos=NULL, type="source")
 library(SNP2GO) #load the package
 ?SNP2GO #view the help-page of the package
 ?snp2go #view the help-page of the snp2go function
