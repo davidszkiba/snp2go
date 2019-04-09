@@ -1,10 +1,10 @@
 Package: SNP2GO
 Type: Package
 Title: Functional Analysis of Genome Wide Association Studies
-Version: 1.0.5
+Version: 1.0.6
 Date: 2016-05-16
 Author: David Szkiba, Martin Kapun, Arndt von Haeseler and Miguel Gallach
-Maintainer: David Szkiba <david.szkiba@univie.ac.at>
+Maintainer: David Szkiba <david.szkiba@gmx.at>
 Description: SNP2GO tests Gene Ontology terms for enrichment of candidate SNPs and infers whether enrichment is influenced by local effects.
 Depends: goProfiles, GenomicRanges
 Imports: AnnotationDbi, GO.db, hash
