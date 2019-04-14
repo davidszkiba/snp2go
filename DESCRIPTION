@@ -12,3 +12,5 @@ Suggests: RUnit
 License: Artistic License 2.0
 Packaged: 2016-05-16 10:43:05 UTC; david
 NeedsCompilation: no
+RoxygenNote: 6.1.1
+Encoding: UTF-8
