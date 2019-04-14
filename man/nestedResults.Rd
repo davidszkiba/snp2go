@@ -19,13 +19,13 @@ Additionally, GO terms are sorted by their level inside the GO DAG and nested.
 \details{
 Nesting of GO terms means, that all child terms of a GO term at level L are
 displayed, before the next significant GO term of level L is shown.
-This is best illustrated by an example:\cr
-\code{
-GO:1 level:1 childterms: GO:2, GO:3, GO:4 \cr
-GO:2 level:2 childterms: GO:4 \cr
-GO:3 level:2 childterms: GO:4 \cr
-GO:4 level:3 childterms: --- \cr
-GO:5: level:1 childterms: GO:6, GO:7 \cr
+This is best illustrated by an example:
+\preformatted{
+GO:1 level:1 childterms: GO:2, GO:3, GO:4
+GO:2 level:2 childterms: GO:4
+GO:3 level:2 childterms: GO:4
+GO:4 level:3 childterms: ---
+GO:5: level:1 childterms: GO:6, GO:7
 }
 GO term GO:1 has 3 significant child terms (GO:2, GO:3 and GO:4). The next
 GO term at the same level as GO:1, GO:5, is displayed after all child terms
